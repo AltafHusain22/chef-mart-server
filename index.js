@@ -1,6 +1,14 @@
 const express = require('express')
 const app = express()
 const port = 5000
+var cors = require('cors')
+app.use(cors())
+const chefsRecips = require('./chefsData/chefsData.json')
+
+
+app.get('/', (req, res) => {
+  res.send('Welcome Server is running well !!')
+})
 
 
 app.listen(port, () => {
