@@ -1,7 +1,7 @@
  [
 	  {
 		"id": 1,
-		"picture": "https://example.com/chef1.jpg",
+		"picture": "../Assets/chef-1.jpg",
 		"name": "Chef John",
 		"bio": "Chef John has been cooking for over 20 years and is known for his innovative twists on classic dishes.",
 		"likes": 5000,
@@ -10,7 +10,7 @@
 	  },
 	  {
 		"id": 2,
-		"picture": "https://example.com/chef2.jpg",
+		"picture": "../Assets/chef-1.jpg",
 		"name": "Chef Maria",
 		"bio": "Chef Maria grew up in a family of chefs and has been cooking professionally for 10 years. She specializes in Italian cuisine.",
 		"likes": 3000,
@@ -19,7 +19,7 @@
 	  },
 	  {
 		"id": 3,
-		"picture": "https://example.com/chef3.jpg",
+		"picture": "../Assets/chef-1.jpg",
 		"name": "Chef Ahmed",
 		"bio": "Chef Ahmed is a master of Middle Eastern cuisine, with over 15 years of experience in the kitchen.",
 		"likes": 2000,
@@ -28,7 +28,7 @@
 	  },
 	  {
 		"id": 4,
-		"picture": "https://example.com/chef4.jpg",
+		"picture": "../Assets/chef-1.jpg",
 		"name": "Chef Emily",
 		"bio": "Chef Emily is a pastry chef who has worked in some of the best restaurants in Paris. She is known for her exquisite desserts.",
 		"likes": 4000,
@@ -37,7 +37,7 @@
 	  },
 	  {
 		"id": 5,
-		"picture": "https://example.com/chef5.jpg",
+		"picture": "../Assets/chef-1.jpg",
 		"name": "Chef Tom",
 		"bio": "Chef Tom is a grill master who has been cooking professionally for over 25 years. He is known for his BBQ and smoked meats.",
 		"likes": 6000,
@@ -46,7 +46,7 @@
 	  },
 	  {
 		"id": 6,
-		"picture": "https://example.com/chef6.jpg",
+		"picture": "../Assets/chef-1.jpg",
 		"name": "Chef Yumi",
 		"bio": "Chef Yumi is a sushi chef who has trained in Japan for over 10 years. She is known for her traditional Japanese dishes.",
 		"likes": 2500,
