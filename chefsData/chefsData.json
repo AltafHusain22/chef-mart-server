@@ -1,58 +1,177 @@
- [
-	  {
-		"id": 1,
-		"picture": "../Assets/chef-1.jpg",
-		"name": "Chef John",
-		"bio": "Chef John has been cooking for over 20 years and is known for his innovative twists on classic dishes.",
-		"likes": 5000,
-		"num_recipes": 50,
-		"years_experience": 20
-	  },
-	  {
-		"id": 2,
-		"picture": "../Assets/chef-1.jpg",
-		"name": "Chef Maria",
-		"bio": "Chef Maria grew up in a family of chefs and has been cooking professionally for 10 years. She specializes in Italian cuisine.",
-		"likes": 3000,
-		"num_recipes": 30,
-		"years_experience": 10
-	  },
-	  {
-		"id": 3,
-		"picture": "../Assets/chef-1.jpg",
-		"name": "Chef Ahmed",
-		"bio": "Chef Ahmed is a master of Middle Eastern cuisine, with over 15 years of experience in the kitchen.",
-		"likes": 2000,
-		"num_recipes": 20,
-		"years_experience": 15
-	  },
-	  {
-		"id": 4,
-		"picture": "../Assets/chef-1.jpg",
-		"name": "Chef Emily",
-		"bio": "Chef Emily is a pastry chef who has worked in some of the best restaurants in Paris. She is known for her exquisite desserts.",
-		"likes": 4000,
-		"num_recipes": 40,
-		"years_experience": 8
-	  },
-	  {
-		"id": 5,
-		"picture": "../Assets/chef-1.jpg",
-		"name": "Chef Tom",
-		"bio": "Chef Tom is a grill master who has been cooking professionally for over 25 years. He is known for his BBQ and smoked meats.",
-		"likes": 6000,
-		"num_recipes": 60,
-		"years_experience": 25
-	  },
-	  {
-		"id": 6,
-		"picture": "../Assets/chef-1.jpg",
-		"name": "Chef Yumi",
-		"bio": "Chef Yumi is a sushi chef who has trained in Japan for over 10 years. She is known for her traditional Japanese dishes.",
-		"likes": 2500,
-		"num_recipes": 25,
-		"years_experience": 10
-	  }
-	]
+[
+  {
+    "id": 1,
+    "picture": "https://tinyurl.com/85su5dte",
+    "name": "Chef John",
+    "bio": "Chef John has been cooking for over 20 years and is known for his innovative twists on classic dishes.",
+    "likes": 5000,
+    "num_recipes": 50,
+    "years_experience": 20,
+    "details_img1": "https://tinyurl.com/24998vkt",
+    "details_img2": "https://tinyurl.com/2s3rkknw",
+    "details_img3": "https://tinyurl.com/24998vkt",
+    "bio_details": "Chef John Doe is a renowned chef with over 20 years of experience in the culinary industry. He has worked in some of the finest restaurants around the world and has won numerous awards for his exceptional cuisine. Chef Doe specializes in French cuisine and is known for his innovative techniques and unique flavor combinations. He is also a published author and has written several cookbooks. In his spare time, Chef Doe enjoys hiking and spending time with his family.",
 
-  
+    "cooking_method": "1. Heat olive oil in a large skillet over medium heat. Add onion and garlic and sauté until softened, about 5 minutes.\n2. Add ground beef and pork and cook until browned, stirring occasionally, about 10 minutes.\n3. Add crushed tomatoes and red wine, and stir to combine. Season with salt and pepper to taste.\n4. Reduce heat to low and let simmer for 30-45 minutes, stirring occasionally.\n5. Cook spaghetti according to package instructions. Serve hot with the bolognese sauce.",
+    "rating": 4.5,
+    "favorite": false,
+
+    "ingredients": [
+      "1 pound spaghetti",
+      "1/2 pound ground beef",
+      "1/2 pound ground pork",
+      "1 onion, diced",
+      "2 cloves garlic, minced",
+      "1 can (28 ounces) crushed tomatoes",
+      "1/2 cup red wine",
+      "1 tablespoon olive oil",
+      "Salt and pepper"
+    ]
+  },
+
+  {
+    "id": 2,
+    "picture": "https://tinyurl.com/2r9f3amn",
+    "name": "Chef Maria",
+    "bio": "Chef Maria grew up in a family of chefs and has been cooking professionally for 10 years. She specializes in Italian cuisine.",
+    "likes": 3000,
+    "num_recipes": 30,
+    "years_experience": 10,
+
+    "details_img1": "https://tinyurl.com/24998vkt",
+	"details_img2": "https://tinyurl.com/2s3rkknw",
+    "details_img3": "https://tinyurl.com/24998vkt",
+    "bio_details": "Chef Maria is a renowned chef with over 20 years of experience in the culinary industry. He has worked in some of the finest restaurants around the world and has won numerous awards for his exceptional cuisine. Chef Doe specializes in French cuisine and is known for his innovative techniques and unique flavor combinations. He is also a published author and has written several cookbooks. In his spare time, Chef Doe enjoys hiking and spending time with his family.",
+
+    "cooking_method": "1. Heat olive oil in a large skillet over medium heat. Add onion and garlic and sauté until softened, about 5 minutes.\n2. Add ground beef and pork and cook until browned, stirring occasionally, about 10 minutes.\n3. Add crushed tomatoes and red wine, and stir to combine. Season with salt and pepper to taste.\n4. Reduce heat to low and let simmer for 30-45 minutes, stirring occasionally.\n5. Cook spaghetti according to package instructions. Serve hot with the bolognese sauce.",
+    "rating": 4.5,
+    "favorite": false,
+
+    "ingredients": [
+      "1 pound spaghetti",
+      "1/2 pound ground beef",
+      "1/2 pound ground pork",
+      "1 onion, diced",
+      "2 cloves garlic, minced",
+      "1 can (28 ounces) crushed tomatoes",
+      "1/2 cup red wine",
+      "1 tablespoon olive oil",
+      "Salt and pepper"
+    ]
+  },
+  {
+    "id": 3,
+    "picture": "https://tinyurl.com/2r6pu74c",
+    "name": "Chef Ahmed",
+    "bio": "Chef Ahmed is a master of Middle Eastern cuisine, with over 15 years of experience in the kitchen.",
+    "likes": 2000,
+    "num_recipes": 20,
+    "years_experience": 15,
+    "details_img1": "https://tinyurl.com/24998vkt",
+	"details_img2": "https://tinyurl.com/2s3rkknw",
+    "details_img3": "https://tinyurl.com/24998vkt",
+    "bio_details": "Chef Ahmed is a renowned chef with over 20 years of experience in the culinary industry. He has worked in some of the finest restaurants around the world and has won numerous awards for his exceptional cuisine. Chef Doe specializes in French cuisine and is known for his innovative techniques and unique flavor combinations. He is also a published author and has written several cookbooks. In his spare time, Chef Doe enjoys hiking and spending time with his family.",
+
+    "cooking_method": "1. Heat olive oil in a large skillet over medium heat. Add onion and garlic and sauté until softened, about 5 minutes.\n2. Add ground beef and pork and cook until browned, stirring occasionally, about 10 minutes.\n3. Add crushed tomatoes and red wine, and stir to combine. Season with salt and pepper to taste.\n4. Reduce heat to low and let simmer for 30-45 minutes, stirring occasionally.\n5. Cook spaghetti according to package instructions. Serve hot with the bolognese sauce.",
+    "rating": 4.5,
+    "favorite": false,
+
+    "ingredients": [
+      "1 pound spaghetti",
+      "1/2 pound ground beef",
+      "1/2 pound ground pork",
+      "1 onion, diced",
+      "2 cloves garlic, minced",
+      "1 can (28 ounces) crushed tomatoes",
+      "1/2 cup red wine",
+      "1 tablespoon olive oil",
+      "Salt and pepper"
+    ]
+  },
+  {
+    "id": 4,
+    "picture": "https://tinyurl.com/3sx3uc4y",
+    "name": "Chef Emily",
+    "bio": "Chef Emily is a pastry chef who has worked in some of the best restaurants in Paris. She is known for her exquisite desserts.",
+    "likes": 4000,
+    "num_recipes": 40,
+    "years_experience": 8,
+    "details_img1": "https://tinyurl.com/24998vkt",
+	"details_img2": "https://tinyurl.com/2s3rkknw",
+    "details_img3": "https://tinyurl.com/24998vkt",
+    "bio_details": "Chef Emily is a renowned chef with over 20 years of experience in the culinary industry. He has worked in some of the finest restaurants around the world and has won numerous awards for his exceptional cuisine. Chef Doe specializes in French cuisine and is known for his innovative techniques and unique flavor combinations. He is also a published author and has written several cookbooks. In his spare time, Chef Doe enjoys hiking and spending time with his family.",
+    "cooking_method": "1. Heat olive oil in a large skillet over medium heat. Add onion and garlic and sauté until softened, about 5 minutes.\n2. Add ground beef and pork and cook until browned, stirring occasionally, about 10 minutes.\n3. Add crushed tomatoes and red wine, and stir to combine. Season with salt and pepper to taste.\n4. Reduce heat to low and let simmer for 30-45 minutes, stirring occasionally.\n5. Cook spaghetti according to package instructions. Serve hot with the bolognese sauce.",
+    "rating": 4.5,
+    "favorite": false,
+
+    "ingredients": [
+      "1 pound spaghetti",
+      "1/2 pound ground beef",
+      "1/2 pound ground pork",
+      "1 onion, diced",
+      "2 cloves garlic, minced",
+      "1 can (28 ounces) crushed tomatoes",
+      "1/2 cup red wine",
+      "1 tablespoon olive oil",
+      "Salt and pepper"
+    ]
+  },
+  {
+    "id": 5,
+    "picture": "https://tinyurl.com/29rpunka",
+    "name": "Chef Tom",
+    "bio": "Chef Tom is a grill master who has been cooking professionally for over 25 years. He is known for his BBQ and smoked meats.",
+    "likes": 6000,
+    "num_recipes": 60,
+    "years_experience": 25,
+    "details_img1": "https://tinyurl.com/24998vkt",
+	"details_img2": "https://tinyurl.com/2s3rkknw",
+    "details_img3": "https://tinyurl.com/24998vkt",
+    "bio_details": "Chef Tom is a renowned chef with over 20 years of experience in the culinary industry. He has worked in some of the finest restaurants around the world and has won numerous awards for his exceptional cuisine. Chef Doe specializes in French cuisine and is known for his innovative techniques and unique flavor combinations. He is also a published author and has written several cookbooks. In his spare time, Chef Doe enjoys hiking and spending time with his family.",
+
+    "cooking_method": "1. Heat olive oil in a large skillet over medium heat. Add onion and garlic and sauté until softened, about 5 minutes.\n2. Add ground beef and pork and cook until browned, stirring occasionally, about 10 minutes.\n3. Add crushed tomatoes and red wine, and stir to combine. Season with salt and pepper to taste.\n4. Reduce heat to low and let simmer for 30-45 minutes, stirring occasionally.\n5. Cook spaghetti according to package instructions. Serve hot with the bolognese sauce.",
+    "rating": 4.5,
+    "favorite": false,
+
+    "ingredients": [
+      "1 pound spaghetti",
+      "1/2 pound ground beef",
+      "1/2 pound ground pork",
+      "1 onion, diced",
+      "2 cloves garlic, minced",
+      "1 can (28 ounces) crushed tomatoes",
+      "1/2 cup red wine",
+      "1 tablespoon olive oil",
+      "Salt and pepper"
+    ]
+  },
+  {
+    "id": 6,
+    "picture": "https://tinyurl.com/4f889953",
+    "name": "Chef Yumi",
+    "bio": "Chef Yumi is a sushi chef who has trained in Japan for over 10 years. She is known for her traditional Japanese dishes.",
+    "likes": 2500,
+    "num_recipes": 25,
+    "years_experience": 10,
+    "details_img1": "https://tinyurl.com/24998vkt",
+    "details_img2": "https://tinyurl.com/2s3rkknw",
+    "details_img3": "https://tinyurl.com/24998vkt",
+    "bio_details": "Chef Yumi is a renowned chef with over 20 years of experience in the culinary industry. He has worked in some of the finest restaurants around the world and has won numerous awards for his exceptional cuisine. Chef Doe specializes in French cuisine and is known for his innovative techniques and unique flavor combinations. He is also a published author and has written several cookbooks. In his spare time, Chef Doe enjoys hiking and spending time with his family.",
+
+    "cooking_method": "1. Heat olive oil in a large skillet over medium heat. Add onion and garlic and sauté until softened, about 5 minutes.\n2. Add ground beef and pork and cook until browned, stirring occasionally, about 10 minutes.\n3. Add crushed tomatoes and red wine, and stir to combine. Season with salt and pepper to taste.\n4. Reduce heat to low and let simmer for 30-45 minutes, stirring occasionally.\n5. Cook spaghetti according to package instructions. Serve hot with the bolognese sauce.",
+    "rating": 4.5,
+    "favorite": false,
+
+    "ingredients": [
+      "1 pound spaghetti",
+      "1/2 pound ground beef",
+      "1/2 pound ground pork",
+      "1 onion, diced",
+      "2 cloves garlic, minced",
+      "1 can (28 ounces) crushed tomatoes",
+      "1/2 cup red wine",
+      "1 tablespoon olive oil",
+      "Salt and pepper"
+    ]
+  }
+]
